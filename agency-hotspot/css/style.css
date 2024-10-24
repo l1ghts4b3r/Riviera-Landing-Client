@@ -275,6 +275,9 @@ section {
 .bg-pinkRiv {
   background: #ee6ab1;
 }
+.bg-aicm {
+  background: #1c3942;
+}
 .bg-pink {
   background: #9a004c;
 }
@@ -999,6 +1002,19 @@ section {
 }
 
 /* ===================================
+   Banner 2
+====================================== */
+
+.slider-area2 {
+  background-image: url("../images/banner2.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95%;
+  margin-left: 5%;
+}
+
+/* ===================================
    Banner
 ====================================== */
 
@@ -1039,6 +1055,22 @@ section {
 }
 
 .slider-area {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.slider-area2 h1 {
+  font-size: 72px;
+  line-height: 1;
+}
+
+.slider-area2 p {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.slider-area2 {
   align-items: center;
   display: flex;
   position: relative;
@@ -1103,6 +1135,10 @@ section {
 }
 
 svg.slider-shape {
+  overflow: visible;
+}
+
+svg.slider-shape2 {
   overflow: visible;
 }
 
@@ -2062,6 +2098,11 @@ svg.slider-shape {
     font-size: 54px;
   }
 
+  /* Banner2 */
+  .slider-area2 h1 {
+    font-size: 54px;
+  }
+
   /* About */
   .about h2 {
     font-size: 38px;
@@ -2140,7 +2181,17 @@ svg.slider-shape {
   .slider-area h1 {
     font-size: 42px;
   }
+
   .slider-area p {
+    font-size: 16px;
+  }
+
+  /* Banner2 */
+  .slider-area2 h1 {
+    font-size: 42px;
+  }
+
+  .slider-area2 p {
     font-size: 16px;
   }
 
@@ -2223,6 +2274,11 @@ svg.slider-shape {
     margin-left: 0;
   }
 
+  .slider-area2 {
+    width: 100%;
+    margin-left: 0;
+  }
+
   /* Side Nav */
   .side_nav {
     display: none;
@@ -2245,6 +2301,18 @@ svg.slider-shape {
     font-size: 36px;
   }
   .slider-area p {
+    font-size: 14px;
+  }
+
+  /* Banner2 */
+  .slider-bottom .slider-social,
+  .slider-copyright {
+    display: none;
+  }
+  .slider-area2 h1 {
+    font-size: 36px;
+  }
+  .slider-area2 p {
     font-size: 14px;
   }
 
@@ -2356,7 +2424,17 @@ svg.slider-shape {
   .slider-area h1 {
     font-size: 30px;
   }
+
   .slider-area p {
+    font-size: 12px;
+  }
+
+  /* Banner2 */
+  .slider-area2 h1 {
+    font-size: 30px;
+  }
+
+  .slider-area2 p {
     font-size: 12px;
   }
   /* About */
