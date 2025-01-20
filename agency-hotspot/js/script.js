@@ -65,13 +65,12 @@ $(window).on("load", function () {
         "#171717",
       ],
       anchors: [
-        "home-banner",
-        "home-banner2",
-        "about",
-        "team",
-        "portfolio",
-        "blog",
-        "contact",
+        "inicio",
+        "comunidades",
+        "rm",
+        "aicm",
+        "marcelina",
+        "testimoniales",
       ],
       scrollingSpeed: 500,
       menu: "#menu",
@@ -84,12 +83,11 @@ $(window).on("load", function () {
         position: "left",
         tooltips: [
           "Inicio",
+          "Comunidades Confiables",
+          "Riviera Maya",
           "AICM",
-          "Acerca",
-          "Colaboradores",
-          "Conoce más",
+          "Marcelina Hogar Confiable",
           "Testimoniales",
-          "Únete",
         ],
       },
 
@@ -550,7 +548,7 @@ $(".ini-customPrevBtn").click(function () {
  ====================================== */
 
 if ($(window).width() > 991) {
-  $("#home-banner").mousemove(function (e) {
+  $("#inicio").mousemove(function (e) {
     $("[data-depth]").each(function () {
       var depth = $(this).data("depth");
       var amountMovedX = (e.pageX * -depth) / 4;
