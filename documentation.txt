@@ -1,0 +1,53 @@
+# Comunidad Confiable Project Documentation
+
+## Overview
+La Comunidad Confiable is an initiative that promotes collaboration between individuals, companies, and organizations that operate with ethical principles and transparency. It focuses on fostering mutual trust in the region, promoting responsible tourism, sustainable development, and fair commercial relationships. Members of this community are distinguished by their coherence between values and actions, prioritizing sustainability and respect for the local community, thus strengthening trust among residents, tourists, and entrepreneurs.
+
+## Project Structure
+- **index.html**: The main HTML file that contains the structure of the homepage.
+- **vendor/css/**: Directory containing third-party CSS libraries.
+- **agency-hotspot/css/**: Directory containing custom CSS styles for the project.
+- **agency-hotspot/images/**: Directory containing images used in the project.
+
+## Dependencies
+- **bundle.min.css**: A bundled CSS file that includes various styles.
+- **LineIcons.min.css**: CSS file for line icons.
+- **jquery.fancybox.min.css**: CSS file for fancybox plugin.
+- **owl.carousel.min.css**: CSS file for Owl Carousel plugin.
+- **wow.css**: CSS file for WOW.js animations.
+- **tootik.min.css**: CSS file for tootik tooltips.
+- **line-awesome.min.css**: CSS file for Line Awesome icons.
+- **jquery.pagepiling.css**: CSS file for page piling effect.
+
+## Sections
+### Header
+Contains the navigation menu and logo. The navigation menu includes links to different sections of the page such as "Inicio", "Comunidades", "Riviera Maya", "AICM", "Marcelina Hogar Confiable", and "Testimoniales".
+
+### Inicio
+The introductory section that provides an overview of the Comunidad Confiable initiative.
+
+### Comunidades
+Showcases different trusted communities with images and descriptions.
+
+### Riviera Maya
+Details about the Riviera Maya trusted community, including a call-to-action button to learn more.
+
+### AICM
+Details about the AICM trusted community, including a call-to-action button to learn more.
+
+### Marcelina Hogar Confiable
+Details about the Marcelina Hogar Confiable community, including a call-to-action button to learn more.
+
+### Testimoniales
+A section featuring testimonials from members of the Comunidad Confiable.
+
+## How to Use
+1. Open `index.html` in a web browser to view the homepage.
+2. Navigate through the sections using the navigation menu.
+3. Click on the call-to-action buttons to learn more about each community.
+
+## Contact
+For more information, visit [Comunidad Confiable](https://comunidadconfiable.com/).
+
+## License
+This project is licensed under the terms of the MIT license.
