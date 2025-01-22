@@ -290,7 +290,7 @@ section {
   background: #232728;
 }
 .bg-blue {
-  background: #11769e;
+  background: #025392;
 }
 .bg-red {
   background: #790707;
@@ -303,6 +303,9 @@ section {
 }
 .bg-green {
   background: #3fab68;
+}
+.bg-marcelina {
+  background: #612768;
 }
 
 /* Social Icons Background */
@@ -1115,14 +1118,14 @@ section {
   font-size: 18px;
   position: absolute;
   bottom: 15px;
-  right: 15px;
+  right: -100px;
   z-index: 1111;
 }
 
 .slider-bottom .slider-social {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 50px;
+  right: 1px;
   z-index: 1111;
 }
 
@@ -1151,7 +1154,7 @@ section {
   float: left;
 }
 
-.slider-social a {
+/* .slider-social a {
   display: block;
   width: 30px;
   height: 30px;
@@ -1166,7 +1169,7 @@ section {
   -moz-transition: background-color 0.2s ease-in-out;
   -o-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
-}
+} */
 
 svg.slider-shape {
   overflow: visible;
@@ -2553,4 +2556,13 @@ svg.slider-shape2 {
   .container {
     margin-top: 100px;
   }
+}
+
+@media screen and (max-width: 1200px) {
+  .slider-bottom .slider-social {
+    display: none;
+  }
+}
+.stitle {
+  font-size: 35px;
 }

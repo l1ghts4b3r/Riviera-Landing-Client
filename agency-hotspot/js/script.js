@@ -452,7 +452,7 @@ $("#team-slider").owlCarousel({
   center: true,
   autoplay: true,
   autoplayHoverPause: true,
-  autoplayTimeout: 1500,
+  autoplayTimeout: 3500,
   slideSpeed: 3000,
   paginationSpeed: 5000,
   smartSpeed: 1000,
