@@ -290,7 +290,7 @@ section {
   background: #232728;
 }
 .bg-blue {
-  background: #025392;
+  background: #26617d;
 }
 .bg-red {
   background: #790707;
@@ -1297,6 +1297,7 @@ svg.slider-shape2 {
 
 #team-slider {
   text-align: center;
+  top: 80px;
 }
 
 .team-box {
