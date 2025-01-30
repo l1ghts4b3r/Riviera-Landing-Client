@@ -83,7 +83,7 @@ $(window).on("load", function () {
         position: "left",
         tooltips: [
           "Inicio",
-          "Comunidades Confiables",
+          "Comunidad Confiable",
           "Riviera Maya",
           "AICM",
           "Marcelina Hogar Confiable",

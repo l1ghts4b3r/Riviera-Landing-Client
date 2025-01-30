@@ -307,6 +307,9 @@ section {
 .bg-marcelina {
   background: #612768;
 }
+.bg-greencom {
+  background: #1e585c;
+}
 
 /* Social Icons Background */
 .facebook-bg-hvr:hover {
@@ -1297,7 +1300,7 @@ svg.slider-shape2 {
 
 #team-slider {
   text-align: center;
-  top: 80px;
+  top: 70px;
 }
 
 .team-box {
