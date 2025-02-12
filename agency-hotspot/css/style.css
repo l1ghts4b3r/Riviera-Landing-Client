@@ -41,6 +41,7 @@
 .main-font {
   font-family: "Red Hat Display", sans-serif;
 }
+
 .alt-font {
   font-family: "Poppins", sans-serif;
 }
@@ -1309,6 +1310,7 @@ svg.slider-shape2 {
   width: 100%;
   padding: 10px;
   background-color: #ffffff;
+  opacity: 0.5;
   height: 430px;
   -webkit-transition: 0.5s ease;
   -o-transition: 0.5s ease;
@@ -1350,8 +1352,9 @@ svg.slider-shape2 {
 }
 
 #team-slider .owl-item.center .item {
-  height: auto;
+  height: 500px;
   transform: scale(1);
+  opacity: 1;
 }
 
 #team-slider .owl-item.center .team-box .team-text h5 {
@@ -2495,6 +2498,9 @@ svg.slider-shape2 {
   /* Banner */
   .slider-area h1 {
     font-size: 30px;
+    .stitle {
+      font-size: 25px;
+    }
   }
 
   .slider-area p {
@@ -2504,6 +2510,9 @@ svg.slider-shape2 {
   /* Banner2 */
   .slider-area2 h1 {
     font-size: 30px;
+    .stitle {
+      font-size: 25px;
+    }
   }
 
   .slider-area2 p {
@@ -2513,6 +2522,9 @@ svg.slider-shape2 {
   /* Banner3 */
   .slider-area3 h1 {
     font-size: 30px;
+    .stitle {
+      font-size: 25px;
+    }
   }
 
   .slider-area3 p {
