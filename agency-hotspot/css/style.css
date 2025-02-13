@@ -1301,7 +1301,6 @@ svg.slider-shape2 {
 
 #team-slider {
   text-align: center;
-  top: 70px;
 }
 
 .team-box {
@@ -2581,4 +2580,14 @@ svg.slider-shape2 {
 }
 .stitle {
   font-size: 35px;
+}
+.cop {
+  font-size: 12px;
+}
+.interteam {
+  line-height: 15px;
+}
+
+.themecol {
+  color: #219653;
 }
