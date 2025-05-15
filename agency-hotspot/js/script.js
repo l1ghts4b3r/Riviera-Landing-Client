@@ -70,7 +70,7 @@ $(window).on("load", function () {
         "rm",
         "aicm",
         "marcelina",
-        "testimoniales",
+        "portfolio",
       ],
       scrollingSpeed: 500,
       menu: "#menu",
@@ -87,7 +87,7 @@ $(window).on("load", function () {
           "Riviera Maya",
           "AICM",
           "Marcelina Hogar Confiable",
-          "Testimoniales",
+          "Portafolio",
         ],
       },
 
