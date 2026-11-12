@@ -119,6 +119,13 @@ blockquote > cite {
 section {
   padding: 0;
 }
+.first-screen .first-screen-title {
+  color: #001624; /* Cambia este valor al color de título que desees */
+}
+.first-screen .first-screen-body {
+  color: #001624 !important;
+  font-weight: 400;
+}
 
 /* transition none */
 .no-transition * {
@@ -276,10 +283,10 @@ section {
   background: #717171;
 }
 .bg-pinkRiv {
-  background: #ee6ab1;
+  background: #00B893;
 }
 .bg-aicm {
-  background: #1c3942;
+  background: #824D1A;
 }
 .bg-bluestrong {
   background: #001624;
@@ -306,10 +313,10 @@ section {
   background: #3fab68;
 }
 .bg-marcelina {
-  background: #612768;
+  background: #569EDC;
 }
 .bg-greencom {
-  background: #1e585c;
+  background: #ffffff;
 }
 
 /* Social Icons Background */
@@ -1014,7 +1021,7 @@ section {
 }
 
 /* ===================================
-   Banner 2
+   Banner 3
 ====================================== */
 
 .slider-area3 {
@@ -1070,7 +1077,7 @@ section {
 }
 
 .slider-area h1 {
-  font-size: 72px;
+  font-size:60px;
   line-height: 1;
 }
 
@@ -1086,7 +1093,7 @@ section {
 }
 
 .slider-area2 h1 {
-  font-size: 72px;
+  font-size: 60px;
   line-height: 1;
 }
 
@@ -1102,7 +1109,7 @@ section {
 }
 
 .slider-area3 h1 {
-  font-size: 72px;
+  font-size: 60px;
   line-height: 1;
 }
 
