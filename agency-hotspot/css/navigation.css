@@ -1,0 +1,23 @@
+/* Suspend pagepiling positioning below its desktop breakpoint. */
+html.natural-scroll, html.natural-scroll body { overflow-y: auto !important; }
+.natural-scroll #pagepiling { overflow: visible !important; touch-action: auto !important; }
+.natural-scroll #pagepiling > .section {
+  position: relative !important;
+  transform: none !important;
+  transition: none !important;
+  height: auto;
+  min-height: 100vh;
+}
+.natural-scroll .pp-tableCell { height: auto !important; display: block; }
+.natural-scroll #pp-nav { display: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .wow { visibility: visible !important; }
+}
+
+/* A transformed header must not clip the fixed mobile menu. */
+@media (max-width: 767px) {
+  #home { transform: none; }
+  #mobile-menu.broad-nav { height: 100vh; height: 100dvh; overflow-y: auto; }
+}
