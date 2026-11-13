@@ -5,9 +5,10 @@ La Comunidad Confiable is an initiative that promotes collaboration between indi
 
 ## Project Structure
 - **home.html**: The main HTML file that contains the structure of the homepage.
-- **vendor/css/**: Directory containing third-party CSS libraries.
-- **agency-hotspot/css/**: Directory containing custom CSS styles for the project.
-- **agency-hotspot/images/**: Directory containing images used in the project.
+- **assets/css/**: Custom styles and third-party CSS libraries.
+- **assets/js/**: Custom scripts and third-party JavaScript libraries.
+- **assets/fonts/**: Font files referenced by the stylesheets.
+- **assets/images/**: Directory containing images used in the project.
 
 ## Dependencies
 - **bundle.min.css**: A bundled CSS file that includes various styles.
@@ -49,9 +50,15 @@ For more information, visit [Comunidad Confiable](https://comunidadconfiable.com
 This project is licensed under the terms of the MIT license.
 
 ## Frontend maintenance
-- Both HTML pages load `agency-hotspot/js/script.js` for shared navigation.
+- Both HTML pages load `assets/js/script.js` for shared navigation.
 - Home section IDs: `comunidades`, `inicio`, `edpr`, `comunidadc`, `buroc`.
 - Old fragments `rm`, `aicm`, and `marcelina` redirect locally to the current section names.
 - Pagepiling is enabled at 1280px and above; narrower viewports use natural scrolling.
-- Shared responsive navigation overrides live in `agency-hotspot/css/navigation.css`.
+- Shared responsive navigation overrides live in `assets/css/navigation.css`.
 - Local preview: `python3 -m http.server 8765 --bind 127.0.0.1`, then open `/home.html` or `/noticias.html`.
+
+## Asset paths
+All static resources live in `assets/`, grouped into `css/`, `js/`, `images/`, and `fonts/`.
+HTML loads resources using `assets/css/...`, `assets/js/...`, or `assets/images/...`.
+CSS uses relative paths such as `../images/...` and `../fonts/...`.
+Keep third-party library filenames and the script load order unchanged when updating dependencies.
