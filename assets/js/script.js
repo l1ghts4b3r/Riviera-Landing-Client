@@ -10,7 +10,7 @@ jQuery(function ($) {
   var mobileMenu = false;
   var labels = {
     comunidades: "Comunidades", inicio: "Inicio", edpr: "Ecosistema DPR",
-    comunidadc: "Comunidad Confiable", buroc: "Buro Confiable", noticia1: "Noticia"
+    comunidadc: "Comunidad Confiable", buroc: "Buro Confiable", noticia1: "Noticia", portfolio: "Conoce más"
   };
 
   function hashTarget() {

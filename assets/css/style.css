@@ -2609,3 +2609,6 @@ button.my_tog, button.my_nav_tog, button.btn-close {
 }
 button.my_nav_tog, button.btn-close { padding: 0; }
 button:focus-visible, a:focus-visible { outline: 2px solid #89531c; outline-offset: 4px; }
+
+/* Preserve the original video arrows with native button controls. */
+#portfolio button.circle { border: 0; padding: 0; background: transparent; }
